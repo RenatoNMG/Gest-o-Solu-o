@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão & Solução</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 85px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 85px;
+            grid-template-rows: 50px 50px 50px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 220px;
+            height: 100vh;
+            gap: 5px;
+        }
+
+        header {
+            
+            grid-column: 3/13;
+            grid-row: 2/4;
+            font-family: raleway;
+
+        }
+
+        div header nav a {
+            text-decoration: none;
+            color: black;
+        }
+
+        div header nav li {
+
+            display: inline;
+            margin: 80px;
+            list-style-type: none;
+            font-size: 20px;
+
+
+        }
+
+        main {
+            background-color: azure;
+            grid-column: 2/12;
+            grid-row: 4/12;
+        }
+
+        section {
+
+            
+        }
+
+        footer {
+            text-align: center;
+
+            position: relative;
+            grid-column: 1/13;
+            grid-row: 12/13;
+            background-color: #113048;
+            
+        }
+
+        .logo {
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+
+        .cadastro {
+            background-color: rgb(108, 205, 250);
+            border-radius: 30px;
+            padding: 5px 15px 5px 15px;
+
+        }
+        .copyrigth{
+            background-color: #F39C12;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .contato{
+            color: white;
+            position: fixed;
+            left: 142px;
+            bottom: 137px;
+           
+          
+        }
+        .end{
+            color: white;
+            position: fixed;
+            left: 142px;
+            bottom: 110px;
+        }
+        .cep{
+            color: white;
+            position: fixed;
+            left: 142px;
+            bottom: 90px;
+        }
+        .tel{
+            color: white;
+            position: fixed;
+            left: 142px;
+            bottom: 66px;
+
+        }
+            
+          
+        
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+        <header>
+            <nav>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Setores</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+                <li class="cadastro"><a href="#">Cadastra-se</a></li>
+
+            </nav>
+
+        </header>
+        <main>
+            
+
+        </main>
+        <section>
+        </section>
+
+        <footer>
+            
+            <div class="copyrigth">
+              <p>&copy; Gestão & Soluções 2024 | Política de Privacidade | Termo de uso | Política de Cookies</p>
+            </div>
+            <div class="contato"><h4>Contato</h4></div>
+            <div class="end"><p>Rua: Tito 54, São Paulo - SP</p></div>
+            <div class="cep"><p>Cep: 05051 - 000</p></div>
+            <div class="tel"><p>Tel: 4444 - 5555</p></div>
+            
+            
+         
+            
+        </footer>
+        <div class="logo">
+            <a href="#"><img src="logo.PNG" alt="logo"></a>
+        </div>
+        
+
+    </div>
+
+</body>
+
+</html>
